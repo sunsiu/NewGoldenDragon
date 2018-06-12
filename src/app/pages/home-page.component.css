@@ -1,0 +1,41 @@
+#whole-page {
+    background-color: #dfbc5e;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#outer-menu {
+    background-color: #b51f09;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    padding: 0 0px;
+}
+
+li button {
+    color: white;
+    text-align: center;
+    padding: 14px 75px;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+#hours {
+    text-align: center;
+    color:	#b51f09;
+    font-family: "Roboto";
+}
