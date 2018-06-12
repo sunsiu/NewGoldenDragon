@@ -1,1 +1,20 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<div id="whole-page">
+    <div id="outer-menu">
+        <div class="table">
+            <ul id="nav-list">
+                <li><button mat-button [routerLink]="['/home']">Home</button></li>
+                <li>
+                    <a href="assets/menus/Menu.pdf"><button mat-button>Menu</button></a>
+                </li>
+                <li>
+                    <a href="assets/menus/DimSumMenu.pdf"><button mat-button>Dim Sum Menu</button></a>
+                </li>
+                <li><button mat-button>Location</button></li>
+                <li><button mat-button [routerLink]="['/contact']">Contact</button></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>

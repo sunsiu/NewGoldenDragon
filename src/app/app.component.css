@@ -1,0 +1,41 @@
+#whole-page {
+    background-color: #dfbc5e;
+    margin: 0;
+    padding: 0; 
+    position: absolute;
+    width: 100%;
+}
+
+#outer-menu {
+    background-color: #b51f09;
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    padding: 0 0px;
+}
+
+button {
+    color: white;
+    text-align: center;
+    padding: 14px 75px;
+    text-decoration: none;
+    font-size: 15pt;
+    background-color: #b51f09;
+}
+
+button mat {
+    background-color: orange;
+}
